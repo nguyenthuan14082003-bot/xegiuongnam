@@ -32,7 +32,7 @@ function Home() {
     <>
       {/* Hero */}
       <section className="relative isolate overflow-hidden">
-        <img src={hero.url} alt="Đội xe khách của Phương Đông SQ gồm xe Limousine và xe khách nhiều kích cỡ" width={1585} height={380} fetchPriority="high" className="absolute inset-0 -z-10 h-full w-full object-cover object-bottom" />
+        <img src="/anhnendoixe.png" alt="Đội xe khách của Phương Đông SQ gồm xe Limousine và xe khách nhiều kích cỡ" width={1585} height={380} fetchPriority="high" className="absolute inset-0 -z-10 h-full w-full object-cover object-bottom" />
         <div className="absolute inset-0 -z-10 bg-hero-overlay" />
         <div className="container-site py-20 text-primary-foreground md:py-32">
           <p className="inline-block rounded-full bg-primary/80 px-4 py-1.5 text-sm font-bold">Vận tải • Du lịch • Xe hợp đồng</p>
@@ -97,7 +97,7 @@ function Home() {
 
       {/* Đội xe */}
       <Section eyebrow="Đội xe" title="Đội xe thực tế" intro="Ảnh đội xe của Phương Đông SQ. Ảnh chi tiết từng dòng xe đang được cập nhật.">
-        <img src={hero.url} alt="Các xe của Phương Đông SQ đỗ cạnh nhau: xe Limousine màu đen và các xe khách xanh dương, xanh lá, trắng" width={1585} height={380} loading="lazy" className="w-full rounded-2xl object-cover shadow-card" />
+        <img src="/anhnendoixe.png" alt="Các xe của Phương Đông SQ đỗ cạnh nhau: xe Limousine màu đen và các xe khách xanh dương, xanh lá, trắng" width={1585} height={380} loading="lazy" className="w-full rounded-2xl object-cover shadow-card" />
         <ul className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
           {visibleVehicles().map((v) => (
             <li key={v.slug}>

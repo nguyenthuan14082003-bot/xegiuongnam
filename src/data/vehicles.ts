@@ -1,9 +1,10 @@
 /**
  * Quản lý đội xe tại đây.
- * - Thêm ảnh: tải ảnh lên, rồi thêm { src, alt } vào `exterior` hoặc `interior`.
- * - Ẩn một nhóm xe: đặt `visible: false`.
- * - Nhóm xe chưa có ảnh thật sẽ hiển thị khung "Đang cập nhật ảnh thực tế".
+ * - Thêm ảnh vào mảng exterior hoặc interior.
+ * - Ẩn một nhóm xe: đặt visible: false.
+ * - Nhóm xe chưa có ảnh sẽ hiển thị khung cập nhật ảnh.
  */
+
 export type VehicleImage = { src: string; alt: string };
 
 export type Vehicle = {
@@ -25,8 +26,17 @@ export const vehicles: Vehicle[] = [
     visible: true,
     summary:
       "Lựa chọn gọn nhẹ cho gia đình nhỏ, nhóm bạn hoặc khách công tác cần di chuyển linh hoạt trong tỉnh và đi các tỉnh lân cận.",
-    suitableFor: ["Gia đình, nhóm nhỏ", "Đưa đón sân bay, nhà ga", "Công tác ngắn ngày"],
-    exterior: [],
+    suitableFor: [
+      "Gia đình, nhóm nhỏ",
+      "Đưa đón sân bay, nhà ga",
+      "Công tác ngắn ngày",
+    ],
+    exterior: [
+      {
+        src: "/toyota-7cho.png.jpg",
+        alt: "Ngoại thất xe Toyota 7 chỗ phục vụ du lịch",
+      },
+    ],
     interior: [],
   },
   {
@@ -36,9 +46,23 @@ export const vehicles: Vehicle[] = [
     visible: true,
     summary:
       "Phù hợp đoàn vừa như đại gia đình, nhóm đồng nghiệp đi du lịch, đi lễ hoặc tham dự sự kiện.",
-    suitableFor: ["Đại gia đình", "Đoàn công ty nhỏ", "Đi lễ chùa, đám cưới"],
-    exterior: [],
-    interior: [],
+    suitableFor: [
+      "Đại gia đình",
+      "Đoàn công ty nhỏ",
+      "Đi lễ chùa, đám cưới",
+    ],
+    exterior: [
+      {
+        src: "/01-xe-16-cho-4x3.jpg",
+        alt: "Ngoại thất xe 16 chỗ",
+      },
+    ],
+    interior: [
+      {
+        src: "/noithat16.jpg",
+        alt: "Nội thất xe 16 chỗ",
+      },
+    ],
   },
   {
     slug: "xe-29-cho",
@@ -47,9 +71,23 @@ export const vehicles: Vehicle[] = [
     visible: true,
     summary:
       "Dòng xe cỡ trung cho đoàn tham quan, dã ngoại, hội nghị hoặc đưa đón theo hợp đồng.",
-    suitableFor: ["Đoàn tham quan", "Trường học, cơ quan", "Hội nghị, sự kiện"],
-    exterior: [],
-    interior: [],
+    suitableFor: [
+      "Đoàn tham quan",
+      "Trường học, cơ quan",
+      "Hội nghị, sự kiện",
+    ],
+    exterior: [
+      {
+        src: "/02-xe-29-34-cho-4x3.jpg",
+        alt: "Ngoại thất xe 29 chỗ",
+      },
+    ],
+    interior: [
+      {
+        src: "/noithat34.jpg",
+        alt: "Nội thất xe 29 chỗ",
+      },
+    ],
   },
   {
     slug: "xe-45-cho",
@@ -58,9 +96,23 @@ export const vehicles: Vehicle[] = [
     visible: true,
     summary:
       "Xe ghế ngồi cỡ lớn cho đoàn đông người, tour du lịch nhiều ngày hoặc đưa đón công nhân, nhân viên.",
-    suitableFor: ["Đoàn du lịch lớn", "Đưa đón công nhân", "Tour nhiều ngày"],
-    exterior: [],
-    interior: [],
+    suitableFor: [
+      "Đoàn du lịch lớn",
+      "Đưa đón công nhân",
+      "Tour nhiều ngày",
+    ],
+    exterior: [
+      {
+        src: "/03-xe-45-cho-4x3.jpg",
+        alt: "Ngoại thất xe 45 chỗ",
+      },
+    ],
+    interior: [
+      {
+        src: "/noithat45.jpg",
+        alt: "Nội thất xe 45 chỗ",
+      },
+    ],
   },
   {
     slug: "xe-giuong-nam-45-cho",
@@ -69,9 +121,23 @@ export const vehicles: Vehicle[] = [
     visible: true,
     summary:
       "Thích hợp cho hành trình đường dài và đi đêm, giúp hành khách nghỉ ngơi thoải mái hơn trên xe.",
-    suitableFor: ["Hành trình đường dài", "Đi đêm", "Tour liên tỉnh"],
-    exterior: [],
-    interior: [],
+    suitableFor: [
+      "Hành trình đường dài",
+      "Đi đêm",
+      "Tour liên tỉnh",
+    ],
+    exterior: [
+      {
+        src: "/04-xe-giuong-nam-4x3.jpg",
+        alt: "Ngoại thất xe giường nằm",
+      },
+    ],
+    interior: [
+      {
+        src: "/noithatgiuongnam.jpg",
+        alt: "Nội thất xe giường nằm",
+      },
+    ],
   },
   {
     slug: "xe-limousine",
@@ -80,11 +146,28 @@ export const vehicles: Vehicle[] = [
     visible: true,
     summary:
       "Không gian rộng, ghế ngồi êm ái, phù hợp khách VIP, đón tiếp đối tác hoặc gia đình muốn chuyến đi thoải mái hơn.",
-    suitableFor: ["Đón tiếp đối tác", "Khách VIP", "Gia đình đi xa"],
-    exterior: [],
-    interior: [],
+    suitableFor: [
+      "Đón tiếp đối tác",
+      "Khách VIP",
+      "Gia đình đi xa",
+    ],
+    exterior: [
+      {
+        src: "/05-xe-limousine-4x3.jpg",
+        alt: "Ngoại thất xe Limousine",
+      },
+    ],
+    interior: [
+      {
+        src: "/noithatlimou.jpg",
+        alt: "Nội thất xe Limousine",
+      },
+    ],
   },
 ];
 
-export const visibleVehicles = () => vehicles.filter((v) => v.visible);
-export const getVehicle = (slug: string) => visibleVehicles().find((v) => v.slug === slug);
+export const visibleVehicles = () =>
+  vehicles.filter((v) => v.visible);
+
+export const getVehicle = (slug: string) =>
+  visibleVehicles().find((v) => v.slug === slug);

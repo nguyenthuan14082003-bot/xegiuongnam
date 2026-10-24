@@ -10,7 +10,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur">
       <div className="container-site flex h-18 items-center justify-between gap-4 py-2">
         <Link to="/" className="flex items-center gap-3" aria-label="Phương Đông SQ - Trang chủ">
-          <img src={logo.url} alt="Logo Phương Đông SQ" width={56} height={56} className="h-14 w-14" />
+          <img src="/dr2.png" alt="Logo Phương Đông SQ" width={56} height={56} className="h-14 w-14" />
           <span className="hidden leading-tight sm:block">
             <span className="block text-sm font-bold text-primary-deep">Vận tải & Du lịch</span>
             <span className="block text-lg font-extrabold text-primary">Phương Đông SQ</span>

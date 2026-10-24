@@ -33,7 +33,7 @@ function Fleet() {
         <div className="container-site">
           {/* Ảnh nền chính của trang Đội xe */}
           <img
-            src="/images/anhnendoixe.png"
+            src="/anhnendoixe.png"
             alt="Đội xe Phương Đông SQ phục vụ du lịch và các hành trình"
             width={2048}
             height={683}

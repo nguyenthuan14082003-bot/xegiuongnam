@@ -33,7 +33,7 @@ export const vehicles: Vehicle[] = [
     ],
     exterior: [
       {
-        src: "/toyota-7cho.png.jpg",
+        src: "/toyota-7cho.png",
         alt: "Ngoại thất xe Toyota 7 chỗ phục vụ du lịch",
       },
     ],

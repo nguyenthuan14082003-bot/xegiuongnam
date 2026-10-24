@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container-site grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <img
-            src="/images/logo-phuong-dong.png"
+            src="/dr2.png"
             alt="Logo Phương Đông SQ"
             width={80}
             height={80}

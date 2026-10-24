@@ -29,7 +29,7 @@ function About() {
             <h2 className="pt-4 text-2xl font-extrabold text-primary-deep">Cách chúng tôi làm việc</h2>
             <p>Mỗi chuyến đi bắt đầu từ việc lắng nghe nhu cầu: số người, lộ trình, thời gian. Sau đó chúng tôi tư vấn dòng xe, thống nhất lịch trình và báo giá trước khi khởi hành. Tìm hiểu các <Link to="/dich-vu" className="font-semibold text-primary hover:underline">dịch vụ</Link> hoặc <Link to="/lien-he" className="font-semibold text-primary hover:underline">liên hệ</Link> để được tư vấn.</p>
           </div>
-          <img src="/dr2.png" alt="Logo Công ty TNHH Vận tải & Du lịch Phương Đông" width={280} height={280} loading="lazy" className="mx-auto w-56 md:w-full" />
+          <img src="/toyota-7cho.png" alt="Logo Công ty TNHH Vận tải & Du lịch Phương Đông" width={280} height={280} loading="lazy" className="mx-auto w-56 md:w-full" />
         </div>
       </section>
       <CtaBand />

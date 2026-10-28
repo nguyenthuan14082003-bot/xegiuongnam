@@ -89,7 +89,7 @@ function Home() {
             Vận tải • Du lịch • Xe hợp đồng
           </p>
           <h1 className="mt-5 max-w-2xl text-4xl leading-tight font-extrabold md:text-6xl">
-            Công ty Du Lịch, Xe Hợp Đồng –{" "}
+            Công Ty Du Lịch, Xe Hợp Đồng –{" "}
             <span className="text-sun">Phương Đông SQ</span>
           </h1>
           <p className="mt-5 max-w-xl text-lg opacity-95">

@@ -50,9 +50,9 @@ const services_icons = [Bus, Briefcase, Users];
 export const Route = createFileRoute("/")({
   head: () =>
     seo({
-      title: "Thuê xe du lịch, xe hợp đồng Phú Thọ – Phương Đông SQ",
+      title: "Xe du lịch, xe hợp đồng Phú Thọ – Phương Đông SQ",
       description:
-        "Phương Đông SQ cho thuê xe du lịch, xe hợp đồng, vận tải hành khách tại Phú Thọ. Xe 7–45 chỗ, xe giường nằm, Limousine. Gọi 0988 783 783.",
+        "Phương Đông SQ xe du lịch, xe hợp đồng, vận tải hành khách tại Phú Thọ. Xe 7–45 chỗ, xe giường nằm, Limousine. Gọi 0988 783 783.",
       path: "/",
       jsonLd: [localBusinessLd, faqLd(FAQS)],
     }),
@@ -89,7 +89,7 @@ function Home() {
             Vận tải • Du lịch • Xe hợp đồng
           </p>
           <h1 className="mt-5 max-w-2xl text-4xl leading-tight font-extrabold md:text-6xl">
-            Thuê Xe Du Lịch, Xe Hợp Đồng –{" "}
+            Xe Du Lịch, Xe Hợp Đồng –{" "}
             <span className="text-sun">Phương Đông SQ</span>
           </h1>
           <p className="mt-5 max-w-xl text-lg opacity-95">

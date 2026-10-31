@@ -89,12 +89,12 @@ function Home() {
             Vận tải • Du lịch • Xe hợp đồng
           </p>
           <h1 className="mt-5 max-w-2xl text-4xl leading-tight font-extrabold md:text-6xl">
-            Công Ty Lữ Hành Vận Tải & Du Lịch, Xe Hợp Đồng –{" "}
+            Công Ty Du Lịch, Lữ Hành, Xe Hợp Đồng –{" "}
             <span className="text-sun">Phương Đông SQ</span>
           </h1>
           <p className="mt-5 max-w-xl text-lg opacity-95">
-            Đồng hành trên mọi hành trình với đa dạng dòng xe từ 7 chỗ đến 45
-            chỗ, xe giường nằm và Limousine.
+            Phương Đông SQ cung cấp dịch vụ xe du lịch 7–45 chỗ, xe Limousine, xe hợp đồng và tổ chức tour du lịch, lữ hành tại Phú Thọ, Hà Nội và toàn quốc.
+            
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <CallButton variant="sun" />

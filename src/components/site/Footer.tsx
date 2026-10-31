@@ -40,17 +40,52 @@ export function Footer() {
               </li>
             ))}
 
-            <li className="flex gap-4 pt-1">
-              <a href={SITE.facebook} target="_blank" rel="noopener noreferrer" className="underline-offset-4 hover:underline">
-                Facebook
-              </a>
-              <a href={SITE.zalo} target="_blank" rel="noopener noreferrer" className="underline-offset-4 hover:underline">
-                Zalo
-              </a>
-              <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer" className="underline-offset-4 hover:underline">
-                Google Maps
-              </a>
-            </li>
+           <li className="flex items-center gap-5 pt-2">
+  <a
+    href={SITE.facebook}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook Phương Đông SQ"
+    title="Facebook"
+    className="transition-transform hover:scale-110"
+  >
+    <img
+      src="https://cdn.simpleicons.org/facebook/1877F2"
+      alt="Facebook"
+      className="h-7 w-7"
+    />
+  </a>
+
+  <a
+    href={SITE.zalo}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Zalo Phương Đông SQ"
+    title="Zalo"
+    className="transition-transform hover:scale-110"
+  >
+    <img
+      src="https://cdn.simpleicons.org/zalo/0068FF"
+      alt="Zalo"
+      className="h-7 w-7"
+    />
+  </a>
+
+  <a
+    href={SITE.mapsUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Google Maps Phương Đông SQ"
+    title="Google Maps"
+    className="transition-transform hover:scale-110"
+  >
+    <img
+      src="https://cdn.simpleicons.org/googlemaps/4285F4"
+      alt="Google Maps"
+      className="h-7 w-7"
+    />
+  </a>
+</li>
           </ul>
         </div>
 
